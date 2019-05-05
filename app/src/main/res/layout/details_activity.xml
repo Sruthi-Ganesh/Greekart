@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent" >
+
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="fitXY"
+        android:background="#FFFFFF"
+        android:id="@+id/delete_table"
+        android:focusable="false"
+        android:src="@drawable/icons8delete"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/delete_table"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:padding="8dp"
+
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content">
+        <TextView
+            tools:text="Yes"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/table_name"
+            android:layout_weight="1"
+            android:padding="8dp" />
+
+            <Button
+                android:id="@+id/deliver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+
+                android:text="Deliver" />
+
+        </LinearLayout>
+
+        <TextView
+            tools:text="yes"
+            android:id="@+id/table_address"
+            android:padding="8dp" />
+
+
+        <TextView
+            android:text="OR"
+            android:textSize="20sp"
+            android:paddingTop="8dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+
+            />
+
+
+
+
+    </TableLayout>
+</LinearLayout>
+</RelativeLayout>

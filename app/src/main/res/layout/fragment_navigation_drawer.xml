@@ -1,0 +1,571 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.android.greekart1.NavigationDrawerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="0dp"
+        android:layout_margin="0dp"
+        android:adjustViewBounds="true"
+        android:id="@+id/image_navigation"
+        android:scaleType="fitXY"
+        android:background="@drawable/basketdairyproducts"
+       />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:id="@+id/linearlayout_breakfast"
+
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="25dp"
+            android:src="@drawable/carticon_grey"
+            />
+
+        <TextView
+            android:id="@+id/breakfast"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="8"
+            android:gravity="left"
+            android:text="BreakFast"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:id="@+id/linearlayout_babycare"
+
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="25dp"
+            android:src="@drawable/carticon_grey"
+            />
+
+        <TextView
+            android:id="@+id/babycare"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="8"
+            android:gravity="left"
+            android:text="Baby Care"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:id="@+id/linearlayout_directfromfarms"
+
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="25dp"
+            android:src="@drawable/carticon_grey"
+            />
+
+        <TextView
+            android:id="@+id/directfromfarms"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="8"
+            android:gravity="left"
+            android:text="Direct From Farms"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:id="@+id/linearlayout_drinks"
+
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="25dp"
+            android:src="@drawable/carticon_grey"
+            />
+
+        <TextView
+            android:id="@+id/drinks"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="8"
+            android:gravity="left"
+            android:text="Drinks"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:id="@+id/linearlayout_dryfruits"
+
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="25dp"
+            android:src="@drawable/carticon_grey"
+            />
+
+        <TextView
+            android:id="@+id/dryfruits"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="8"
+            android:gravity="left"
+            android:text="Dry Fruits"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:id="@+id/linearlayout_edibleoils"
+
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="25dp"
+            android:src="@drawable/carticon_grey"
+            />
+
+        <TextView
+            android:id="@+id/edibleoils"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="8"
+            android:gravity="left"
+            android:text="Edible Oils"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:id="@+id/linearlayout_fragrance"
+
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="25dp"
+            android:src="@drawable/carticon_grey"
+            />
+
+        <TextView
+            android:id="@+id/fragrance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="8"
+            android:gravity="left"
+            android:text="Fragrance"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:id="@+id/linearlayout_groceries"
+
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="25dp"
+            android:src="@drawable/carticon_grey"
+            />
+
+        <TextView
+            android:id="@+id/groceries"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="8"
+            android:gravity="left"
+            android:text="Groceries"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:id="@+id/linearlayout_health_care"
+
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="25dp"
+            android:src="@drawable/carticon_grey"
+            />
+
+        <TextView
+            android:id="@+id/health"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="8"
+            android:gravity="left"
+            android:text="Health Care"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:id="@+id/linearlayout_health_drinks"
+
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="25dp"
+            android:src="@drawable/carticon_grey"
+            />
+
+        <TextView
+            android:id="@+id/healthdrinks"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="8"
+            android:gravity="left"
+            android:text="Health Drinks"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:id="@+id/linearlayout_home_needs"
+
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="25dp"
+            android:src="@drawable/carticon_grey"
+            />
+
+        <TextView
+            android:id="@+id/homeneeds"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="8"
+            android:gravity="left"
+            android:text="Home Needs"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:id="@+id/linearlayout_HouseHold"
+
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="25dp"
+            android:src="@drawable/carticon_grey"
+            />
+
+        <TextView
+            android:id="@+id/household"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="8"
+            android:gravity="left"
+            android:text="House Hold"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:id="@+id/linearlayout_personal_care"
+
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="25dp"
+            android:src="@drawable/carticon_grey"
+            />
+
+        <TextView
+            android:id="@+id/personalcare"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="8"
+            android:gravity="left"
+            android:text="Personal Care"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:id="@+id/linearlayout_teacoffee"
+
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="25dp"
+            android:src="@drawable/carticon_grey"
+            />
+
+        <TextView
+            android:id="@+id/teaCoffee"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="8"
+            android:gravity="left"
+            android:text="Tea and Coffee"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:id="@+id/linearlayout_mycart"
+
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="25dp"
+            android:src="@drawable/carticon_grey"
+            />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="8"
+            android:gravity="left"
+            android:text="My Cart"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="16dp"
+        android:id="@+id/linearlayout_mywishlist"
+        android:clickable="true"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="25dp"
+            android:src="@drawable/hearticon"
+            />
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="8"
+            android:gravity="left"
+            android:text="My Wishlist"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/linearlayout_myorders"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="25dp"
+            android:src="@drawable/ordersicon"
+            />
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="8"
+            android:gravity="left"
+            android:text="My Orders"
+            android:textSize="16sp" />
+        </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/linearlayout_myaccount"
+            android:layout_margin="16dp"
+            android:clickable="true"
+            android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="25dp"
+            android:src="@drawable/ordersicon"
+            />
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="8"
+            android:gravity="left"
+            android:text="My Account"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+    </ScrollView>

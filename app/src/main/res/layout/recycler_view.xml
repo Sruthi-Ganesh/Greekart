@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="8dp"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:gravity="center"
+        tools:src="@drawable/aashirvaad_atta5kg"
+        android:id="@+id/image_view_recycler"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="8dp"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:maxLines="3"
+        tools:text="App"
+        android:textSize="13sp"
+        android:id="@+id/title_recycler_view"
+        />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        tools:text="Store"
+        android:textColor="@color/colorPrimary"
+        android:textSize="13sp"
+        android:id="@+id/price_recycler_view"
+        />
+
+</LinearLayout>
